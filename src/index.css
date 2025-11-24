@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body{
+  font-family: "Cardo", serif;
+}
+
+.icon{
+  @apply hover:text-blue-500 cursor-pointer active:translate-y-1 transition-all
+}
+
+.flex-center{
+  @apply flex items-center justify-center
+}
